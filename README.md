@@ -17,9 +17,8 @@ where $x$ is the recovered signal, $y = Ax_0$, and $\epsilon$ is defined as desc
 
 
 4. As for Basis Pursuit De-Noising,
-$y$ is redefined as $y = Ax_0 + e$, where the error equals $e \sim \mathcal{N}(0,~\sigma^2)$.
-Therefore we have  
-$\text{min } \lVert x \rVert_{\ell_1} \text{ subject to } \lVert Ax - (Ax_0 + e) \rVert_{\ell_2} \leq \epsilon$  
+$y$ is redefined as $y = Ax_0 + e$, where the error equals $e \sim \mathcal{N}(0,~\sigma^2)$. </br>
+Therefore we have $\text{min } \lVert x \rVert_{\ell_1} \text{ subject to } \lVert Ax - (Ax_0 + e) \rVert_{\ell_2} \leq \epsilon$  
 
 ## Libraries
 * numpy
